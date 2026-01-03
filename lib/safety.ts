@@ -1,5 +1,5 @@
 /**
- * Safety Guardrails for Auto-Sage
+ * Safety Guardrails for Auto Sage
  * Non-Negotiable: Prevents unsafe DIY advice for critical systems
  */
 

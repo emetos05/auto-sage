@@ -32,6 +32,7 @@ export const vehicleMakes = [
   "GMC",
   "Great Wall",
   "Haval",
+  "Honda",
   "Hummer",
   "Hyundai",
   "Infiniti",

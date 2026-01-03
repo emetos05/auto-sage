@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { searchRepairShops } from "@/lib/yelp";
+import { searchRepairShops } from "@/lib/google";
 
 export async function POST(req: NextRequest) {
   try {

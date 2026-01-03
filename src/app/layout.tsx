@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Auto-Sage - AI Car Maintenance Assistant",
+  title: "Auto Sage - AI Car Maintenance Assistant",
   description:
     "Privacy-first AI-powered car diagnostic and maintenance assistant",
   manifest: "/manifest.json",

@@ -36,7 +36,7 @@ Auto-Sage is an AI-powered Progressive Web App (PWA) that helps users diagnose b
 - **Styling**: Tailwind CSS
 - **Storage**: IndexedDB (via `idb`)
 - **AI**: OpenAI API (text + vision)
-- **Maps**: Yelp Fusion API
+- **Maps**: Google Places API
 - **PWA**: Service Workers
 
 ## 📦 Installation
@@ -59,13 +59,13 @@ Edit `.env.local`:
 
 ```env
 OPENAI_API_KEY=your_openai_api_key_here
-YELP_API_KEY=your_yelp_api_key_here
+GOOGLE_PLACES_API_KEY=your_google_places_api_key_here
 ```
 
 Get your API keys:
 
 - **OpenAI**: https://platform.openai.com/api-keys
-- **Yelp**: https://www.yelp.com/developers/v3/manage_app
+- **Google Places**: https://console.cloud.google.com/apis/library/places
 
 ### 3. Run Development Server
 
@@ -86,7 +86,7 @@ vercel
 Set environment variables in Vercel dashboard:
 
 - `OPENAI_API_KEY`
-- `YELP_API_KEY`
+- `GOOGLE_PLACES_API_KEY`
 
 ### Other Platforms
 

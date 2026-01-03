@@ -1,6 +1,6 @@
 import { isSafeDiagnosis, shouldEscalateToShop } from "./safety";
 
-export const systemPrompt = `You are Auto-Sage, an AI diagnostic assistant for car maintenance. Your role is to help users understand basic car issues safely.
+export const systemPrompt = `You are Auto Sage, an AI diagnostic assistant for car maintenance. Your role is to help users understand basic car issues safely.
 
 CRITICAL RULES:
 1. You ONLY return valid JSON responses. Never use markdown, explanations, or plain text.

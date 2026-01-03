@@ -51,7 +51,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <div className="text-3xl">🔧</div>
             <div>
-              <h1 className="text-2xl font-bold">Auto-Sage</h1>
+              <h1 className="text-2xl font-bold">Auto Sage</h1>
               <p className="text-sm opacity-90">AI Car Maintenance Assistant</p>
             </div>
           </div>

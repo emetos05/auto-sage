@@ -1,6 +1,6 @@
 {
-  "name": "Auto-Sage - AI Car Maintenance Assistant",
-  "short_name": "Auto-Sage",
+  "name": "Auto Sage - AI Car Maintenance Assistant",
+  "short_name": "Auto Sage",
   "description": "Privacy-first AI-powered car diagnostic and maintenance assistant",
   "start_url": "/",
   "display": "standalone",

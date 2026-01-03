@@ -156,7 +156,7 @@ export default function ShopFinder({ onBack }: ShopFinderProps) {
                     rel="noopener noreferrer"
                     className="px-3 py-1 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
                   >
-                    🌐 View on Yelp
+                    🌐 View on Google Maps
                   </a>
                 )}
                 {shop.distance && (

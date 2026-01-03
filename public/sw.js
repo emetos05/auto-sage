@@ -1,4 +1,4 @@
-// Auto-Sage Service Worker
+// Auto Sage Service Worker
 // Provides offline support for the PWA
 
 const CACHE_NAME = "auto-sage-v1";
@@ -83,7 +83,7 @@ self.addEventListener("sync", (event) => {
 // Push notification handler (device-local only)
 self.addEventListener("push", (event) => {
   const data = event.data ? event.data.json() : {};
-  const title = data.title || "Auto-Sage Reminder";
+  const title = data.title || "Auto Sage Reminder";
   const options = {
     body: data.body || "Time to check your vehicle maintenance",
     icon: "/icon-192.png",
@@ -96,7 +96,7 @@ self.addEventListener("push", (event) => {
     actions: [
       {
         action: "open",
-        title: "Open Auto-Sage",
+        title: "Open Auto Sage",
       },
       {
         action: "close",

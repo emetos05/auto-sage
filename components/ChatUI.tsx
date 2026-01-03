@@ -29,7 +29,7 @@ export default function ChatUI({
     const greeting: ChatMessage = {
       id: uuidv4(),
       role: "assistant",
-      content: `Hi! I'm Auto-Sage. I'm here to help you diagnose issues with your ${vehicle.year} ${vehicle.make} ${vehicle.model}. What's going on with your vehicle?`,
+      content: `Hi! I'm Auto Sage. I'm here to help you diagnose issues with your ${vehicle.year} ${vehicle.make} ${vehicle.model}. What's going on with your vehicle?`,
       timestamp: Date.now(),
     };
     setMessages([greeting]);
@@ -199,7 +199,7 @@ export default function ChatUI({
         <h2 className="text-xl font-bold">
           {vehicle.year} {vehicle.make} {vehicle.model}
         </h2>
-        <p className="text-sm opacity-90">Auto-Sage Diagnostic Assistant</p>
+        <p className="text-sm opacity-90">Auto Sage Diagnostic Assistant</p>
       </div>
 
       {/* Messages */}
